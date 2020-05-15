@@ -1,0 +1,156 @@
+<html>
+<head>
+<style>
+
+body{
+background-image: url("background.png");
+}
+
+h1{
+  text-align: center;
+  font-family: algerian;
+  font-size :40px;}
+  
+
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: black;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-family: algerian;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+  
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  
+  <tr>
+    <th><a href="home.html">Home</a></th> 
+	<th><a href="background.html">About</a></th> 
+    <th><a href="education.html">Education</a></th>
+    <th><a href="family.html">Family</a></th> 
+    <th><a href="feedback.html">Feedback</a></th> 	
+  </tr>
+</div>
+
+
+<div class="main">
+
+<hr><h1>EDUCATION BACKGROUND</h1></hr>
+<div id="div1">
+<p><table border=1 style="width:40%" align="center">
+  <tr>
+    <th>Year</th>
+    <th>Education place</th> 
+  </tr>
+  <tr>
+    <td>2007 - 2012</td>
+    <td>SK Bukit Marak</td>
+  </tr>
+<tr>
+    <td>2013 - 2017</td>
+    <td>SMK Dato' Ahmad Maher</td>
+  </tr>
+  <tr>
+    <td>2018 - 2019</td>
+    <td>Kolej Matrikulasi Kelantan</td>
+  </tr>
+  <tr>
+    <td>2019 - ????</td>
+    <td>Universiti Institusi Teknologi MARA</td>
+  </tr>
+</table></p>
+
+
+<center><button onclick="myFunction()">Education Gallery</button></center>
+<center><div id="myDIV">
+<h2><b>During Matric : <b></h2>
+<img src="matric.jpeg" width="50%" height="50%">
+<img src="matric2.jpeg" width="45%" height="50%">
+<img src="matric3.jpeg" width="50%" height="50%">
+<h2><b>During UiTM   :</b></h2>
+<img src="uitm1.jpeg" width="45%" height="50%">
+<img src="uitm2.jpeg" width="45%" height="50%">
+<img src="uitm3.jpeg" width="45%" height="50%">
+</div></center>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer><center>
+  <p>Author:  Entoh Heran<br>
+  <a href="mailto:hege@example.com">marw@email.com</a></p>
+</center></footer></div></div></center>
+</body>
+</html>

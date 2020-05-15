@@ -1,0 +1,176 @@
+<html>
+<head>
+<style>
+
+body{
+background-image: url("background.png");
+}
+
+h1{
+  text-align: center;
+  font-family: algerian;
+  font-size :40px;}
+
+#myDIV {
+  width: 80%;
+  text-align: center;
+}
+
+#div1{
+  background-color: lightgray;
+  padding: 20px;
+  box-shadow:0 0 20px #000000b3;
+  width:330px;
+  background-image: url("background.jpg");
+  align:center;
+}
+
+
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: black;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-family: algerian;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+  
+}
+
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>  
+</head>
+
+<body>
+
+<div class="sidenav">
+  
+  <tr>
+    <th><a href="home.html">Home</a></th> 
+	<th><a href="background.html">About</a></th> 
+    <th><a href="education.html">Education</a></th>
+    <th><a href="family.html">Family</a></th> 
+    <th><a href="feedback.html">Feedback</a></th> 	
+  </tr>
+</div>
+
+<div class="main">
+
+<hr><h1>FAMILY BACKGROUND</h1><hr>
+
+<center><div id="div1">
+<ul><li>Parents' Name   :<ul><li>Father : Abidin Bin Sahari<ul><li>DOB : 12/12/1948</li></ul></li><li>Mother : Suhayani Binti Dollah<ul><li>DOB : 22/01/1958</li></ul></li></ul></li></ul>
+
+<table border="2">
+<tr>
+    <th>Ranking</th>
+    <th>Name</th> 
+	<th>DOB(Date of Birth)</th>
+  </tr>
+  <tr align="center">
+    <td>1</td>
+    <td>Mardhiyah Abidin</td>
+	<td>02/04/1991</td>
+  </tr>
+<tr align="center">
+    <td>2</td>
+    <td>Mardhiyana Abidin</td>
+	<td>03/03/1992</td>
+  </tr>
+<tr align="center">
+    <td>3</td>
+    <td>Marzuki Abidin</td>
+	<td>25/06/1995</td>
+  </tr>
+<tr align="center">
+    <td>4</td>
+    <td>Marwan Abidin</td>
+	<td>26/05/1999</td>
+  </tr>
+  
+<tr align="center">
+    <td>5</td>
+    <td>Marhaini Abidin</td>
+    <td>23/04/2000</td>
+  </tr>
+  
+<tr align="center">
+    <td>6</td>
+    <td>Marami Abidin</td>
+    <td>31/12/2004</td>
+  </tr>
+  
+<tr align="center">
+    <td>7</td>
+    <td>Murshidi Abidin</td>
+    <td>01/03/2006</td>
+  </tr>
+  
+</table></div></center>
+
+<center><button onclick="myFunction()">Family Gallery</button></center>
+<center><div id="myDIV">
+<h2><b>During Raya : <b></h2>
+<img src="familyraya.jpg" width="70%" height="60%">
+<img src="family.jpg" width="35%" height="50%">
+</div></center>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer><center>
+  <p>Author:  Entoh Heran<br>
+  <a href="mailto:hege@example.com">marw@email.com</a></p>
+</center></footer>
+</div>
+</body>
+</html>

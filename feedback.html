@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+background-image: url("background.png");
+margin:0;
+background-size:cover;
+}
+
+form{
+width:85%
+max-width:600px;
+background:#f1f1f1;
+position:absolute;
+top:50%
+left:50%
+transform:translate(-50%,-50%);
+padding:30px 40px;
+box-sizing:border-box;
+border-radius:8px;
+text-align:center;
+box-shadow:0 0 20px #000000b3;
+font-family:san-serif;
+margin:auto;
+background-image: url("background.jpg");
+}
+
+h1{
+margin-top:0;
+font-weight:100;
+font-family:algerian;
+text-align:center;
+font-size :30px;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: black;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-family: algerian;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+  
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  
+  <tr>
+    <th><a href="home.html">Home</a></th> 
+	<th><a href="background.html">About</a></th> 
+    <th><a href="education.html">Education</a></th>
+    <th><a href="family.html">Family</a></th> 
+    <th><a href="feedback.html">Feedback</a></th> 	
+  </tr>
+</div>
+
+
+<center><div class="main" align="center">
+
+<h1>FEEDBACK<h1>
+
+<center><form action="mailto:someone@example.com" method="post" enctype="text/plain">
+<h1>Contact us</h1>
+Name:<br>
+<input type="text" name="name" placeholder="Enter Your Name"><br>
+E-mail:<br>
+<input type="text" name="mail" placeholder="Enter Your Email"><br>
+Comment:<br>
+<input type="text" name="comment" size="50" placeholder="Enter Your Comment">
+<br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form></center>
+
+</div></center>
+
+</body>
+</html>
